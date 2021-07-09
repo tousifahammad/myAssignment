@@ -7,7 +7,7 @@
 
         <variable
             name="vm"
-            type="com.tousif.webskitter.ui.activities.home.HomeViewModel" />
+            type="com.tousif.assignment.ui.activities.home.HomeViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

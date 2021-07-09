@@ -9,7 +9,7 @@
 
         <variable
             name="category"
-            type="com.tousif.webskitter.data.models.AllCategory" />
+            type="com.tousif.assignment.data.models.AllCategory" />
 
     </data>
 

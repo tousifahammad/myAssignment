@@ -9,7 +9,7 @@
 
         <variable
             name="item"
-            type="com.tousif.webskitter.data.models.Item" />
+            type="com.tousif.assignment.data.models.Item" />
 
     </data>
 
@@ -17,7 +17,8 @@
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_8sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_4sdp"
         app:cardBackgroundColor="@color/transparent"
         app:cardCornerRadius="@dimen/_5sdp"
         app:cardElevation="0dp"

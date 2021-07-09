@@ -11,7 +11,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.tousif.webskitter"
+        applicationId "com.tousif.assignment"
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode 1
