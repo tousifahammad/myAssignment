@@ -12,16 +12,17 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/White">
 
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_13sdp"
             android:includeFontPadding="false"
             android:text="Swiggy"
-            android:layout_marginTop="@dimen/_13sdp"
             android:textColor="@color/textColorPrimary"
             android:textSize="@dimen/_20ssp"
             android:textStyle="bold"
@@ -30,17 +31,17 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:layout_marginTop="@dimen/_13sdp"
             android:id="@+id/etSearch"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/_13sdp"
+            android:layout_marginTop="@dimen/_13sdp"
             android:ems="10"
             android:hint="Search Text"
-            app:layout_constraintTop_toBottomOf="@+id/textView4"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"  />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_photos"

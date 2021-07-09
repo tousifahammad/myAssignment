@@ -18,15 +18,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_8sdp"
-        android:background="@color/WhiteSmoke"
         app:cardBackgroundColor="@color/transparent"
-        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
         app:cardElevation="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/WhiteSmoke"
             android:id="@+id/clRoot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
